@@ -1,4 +1,4 @@
-# EviSplat: Evidence-Grounded Conversational Interaction in 3D Scenes via Gaussian Splatting and Large Language Models
+# EviSplat: Traceable Evidence Chains for Hallucination-Free 3D Scene Dialogue
 
 ### Installation
 + Install `Python >= 3.10`.
@@ -20,7 +20,7 @@ pip install submodules/simple-knn
 ## Datasets
 In the experiments section of our paper, we primarily utilized two datasets: the 3D-OVS dataset and the LERF dataset.
 
-The 3D-OVS dataset is accessible for download via the following link: [Download 3D-OVS Dataset](https://drive.google.com/drive/folders/1kdV14Gu5nZX6WOPbccG7t7obP_aXkOuC?usp=sharing) .
+The Replica dataset is accessible for download via the following link: [Download Replica Dataset](https://drive.google.com/drive/folders/1kdV14Gu5nZX6WOPbccG7t7obP_aXkOuC?usp=sharing) .
 
 The LERF dataset is accessible for download via the following link: [Download LERF Dataset](https://drive.google.com/file/d/1QF1Po5p5DwTjFHu6tnTeYs_G0egMVmHt/view?usp=sharing).
 
@@ -37,4 +37,3 @@ python train.py -s data/you_data -m output
 ```
 python main.py --config.yaml
 ```
-### Due to the large size of the S-YOLOv8 file, a download link will be provided later.
