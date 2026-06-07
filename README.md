@@ -1,4 +1,4 @@
-# EviSplat: Traceable Evidence Chains for Hallucination-Free 3D Scene Dialogue
+# TraceGraph: Evidence-Traceable 3D Scene Dialogue via Gaussian Splatting
 
 ### Installation
 + Install `Python >= 3.10`.
